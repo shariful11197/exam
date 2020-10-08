@@ -1,0 +1,181 @@
+*{
+	padding:  0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+
+
+/************************************
+		main css xtart
+****************************************/
+
+/****************header section css start*************/
+.header-section{
+	background: url("../img/header.png") center center no-repeat;
+	background-size: cover;
+}
+.menu{
+	width: 100%;
+
+}
+.menu .bg-light{
+	background: transparent !important;
+}
+.menu .navbar-light .navbar-nav .nav-link{
+	color: #fff;
+	margin: 0px 15px;
+	font-size: 14px;
+	font-weight: 700;
+	padding-bottom: 0px;
+}
+.menu .navbar-light .navbar-nav .nav-link:hover{
+	color: #2870db;
+	
+}
+.menu .navbar-light .navbar-nav .active>.nav-link{
+	color: #fff;
+}
+.menu .navbar-light .navbar-nav .active>.nav-link:hover{
+	color: #2870db;
+}
+.menu .btn-info{
+	padding: 10px 35px;
+	font-weight: 700;
+	background: #fff;
+	color: #000;
+	border: 0px;
+	border-radius: 30px;
+	font-size: 14px ;
+	transition: 1s ease-in;
+}
+.menu .btn-info:hover, .menu .btn-info:focus{
+	background: #2870db;
+	color: #fff;
+	border: 0px;
+}
+.header-section .banner{
+width: 100%;
+padding: 60px 0px 170px;
+}
+.banner .banner-inner{
+	width: 100%;
+	padding: 0px 0px 150px;
+}
+.banner .banner-inner h1{
+	font-size: 42px;
+	line-height: 52px;
+	color: #1c2056;
+	font-weight: 600;
+
+}
+.banner .banner-inner p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #9ca6aa;
+	font-weight: 400;
+
+}
+.banner .banner-inner .btn-info{
+	padding: 10px 35px;
+	margin-top: 10px;
+	background: #2870db;
+	color: #fff;
+	border: 0px;
+	border-radius: 30px;
+	font-size: 14px ;
+	transition: 1s ease-in;
+}
+.banner .banner-inner .btn-info:hover, .banner .banner-inner .btn-info:focus{
+	background: #fff;
+	color: #000;
+	border: 0px;
+}
+
+
+
+.feature-section{
+	width: 100%;
+
+}
+.feature-section .title{
+	width: 100%;
+	padding: 0px 0px 30px;
+	text-align: center;
+}
+.feature-section .title h4{
+	font-size: 42px;
+	line-height: 52px;
+	color: #000;
+	font-weight: 700;
+}
+
+.text-section{
+	width: 100%;
+	padding: 80px 0px;
+	
+}
+
+.text-section .inner-section-1 .tiyle h5{
+	font-size: 18px;
+	color: #74797c;
+	text-transform: uppercase;
+	font-weight:700;
+	margin-bottom: 39px;
+	border: 1px;
+	box-shadow: 1px solid #000;
+	margin-bottom: 20px;
+
+}
+.text-section .inner-section-1 .tiyle h5 p{
+	font-size: 14px;
+	color: #cad0d3;
+	margin-top: 10px;
+}
+.text-section .inner-section-2 .tiyle h5{
+	font-size: 18px;
+	color: #74797c;
+	text-transform: uppercase;
+	font-weight:700;
+	margin-bottom: 39px;
+	border: 1px;
+	box-shadow: 1px solid #000;
+	margin-bottom: 20px;
+
+}
+.text-section .inner-section-2 .tiyle h5 p{
+	font-size: 14px;
+	color: #cad0d3;
+	margin-top: 10px;
+}
+.text-section .inner-section-3{
+	text-align: center;
+}
+
+.text-section .inner-section-3 .tiyle h5{
+	font-size: 18px;
+	color: #74797c;
+	text-transform: uppercase;
+	font-weight:700;
+	margin-bottom: 39px;
+	border: 1px;
+	box-shadow: 1px solid #000;
+	margin-bottom: 20px;
+
+}
+
+.text-section .inner-section-3 .tiyle h5 p{
+	font-size: 14px;
+	color: #cad0d3;
+	margin-top: 10px;
+}
